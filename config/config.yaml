@@ -1,0 +1,18 @@
+common:
+  otel_endpoint: "127.0.0.1:4317"
+  consul_addr: http://127.0.0.1:8500
+  consul_dc: local
+  metrics_addr: 0.0.0.0:9103
+  metrics_path: /metrics
+app_mapping:
+  - app_id: ios_test_v1
+    req_map_config: |
+      {
+        "base": "dog",
+        "phone_area_code": "phone_area_code_1"
+      }
+    resp_map_config: |
+      {
+        "code": "coode",
+        "msg": "message"
+      }

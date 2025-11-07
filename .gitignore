@@ -1,0 +1,7 @@
+CLAUDE.md
+.hz
+.DS_Store
+.idea
+.vscode
+.codebuddy
+*.swagger.json
